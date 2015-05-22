@@ -6,7 +6,7 @@
 REQUISITO:
 Ingresado 3 medidas por el Usuario verificar si puede formar o no un Triangulo.
 
-Determinar que tipo de triangulo puede ser: Equilatero, Isoseles o Escaleno.
+Determinar que tipo de triangulo puede ser: Equilátero, Isósceles o Escaleno.
 
 MATERIA:
 Algoritmo y Estructura de Datos
