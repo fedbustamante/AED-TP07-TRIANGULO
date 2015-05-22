@@ -22,5 +22,11 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
+    int a,b,c;
     cout<<"Iniciando";
+	
+	cout<<"Ingrese tres longitudes"<<endl;
+	cin >> a >> b >> c ;
+	
+	
 }
