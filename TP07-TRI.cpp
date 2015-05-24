@@ -50,4 +50,7 @@ int main(int argc, char *argv[])
     if (Figura == Cuadrado) {
 	cout<<endl<<"La figura es un Cuadrado"<<endl;
     }
+    
+    //Cambios desde CodeShader
+    //Probando
 }
