@@ -20,7 +20,25 @@ Augusto SCHMID
 
 using namespace std;
 
+bool esEquilatero(int, int, int);
+
+bool esIsosceles(int, int, int);
+
+bool esEscaleno(int, int, int);
+
 int main(int argc, char *argv[])
 {
     cout<<"Iniciando";
+}
+
+bool esEquilatero(int x, int y, int z){
+	return (x == y and y == z);
+}
+
+bool esIsosceles(int x, int y, int z){
+	return ( ((x==y) and (x!=z)) or ((x==z) and (z!=y)) or ((y==z) and (z!=x)) );
+}
+
+bool esEscaleno(int x, int y, int z){
+	return (x!=y and y!=z and z!=x);
 }
