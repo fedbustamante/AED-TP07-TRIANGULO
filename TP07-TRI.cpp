@@ -22,11 +22,32 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
+    //desde AdrielChambi
     int a,b,c;
     cout<<"Iniciando";
 	
-	cout<<"Ingrese tres longitudes"<<endl;
-	cin >> a >> b >> c ;
+    //desde Auguschmid
+    cout<<"Ingrese tres longitudes"<<endl;
+    cin >> a >> b >> c ;
 	
+    //desde AdrielChambi
+    cout<<"Volviendo a modificar";
 	
+    //Pruebas con ENUM:
+	
+    //Creacion del Tipo de Dato:
+    enum TipoFigura {
+	Circulo,
+	Cuadrado,
+	Rectangulo
+    };
+	
+    //Utilizacion de la Variable
+	
+    TipoFigura Figura;
+    Figura = Cuadrado;
+	
+    if (Figura == Cuadrado) {
+	cout<<endl<<"La figura es un Cuadrado"<<endl;
+    }
 }
